@@ -88,6 +88,9 @@
     </item>
     <item>
      <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetNoConstraint</enum>
+      </property>
       <item>
        <widget class="QTableWidget" name="topTable">
         <property name="minimumSize">
@@ -321,6 +324,12 @@
     </item>
     <item>
      <widget class="QTabWidget" name="detailsTab">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="tabPosition">
        <enum>QTabWidget::East</enum>
       </property>

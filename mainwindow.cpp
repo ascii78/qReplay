@@ -45,7 +45,7 @@ MainWindow::MainWindow(const Config& config, QWidget *parent) :
     ui->topTable->setColumnWidth(4, 180);
     ui->topTable->setColumnWidth(6, 45);
     ui->topTable->setColumnHidden(6, true);
-    ui->topTable->setStyleSheet("QTableView { selection-background-color: palette(Highlight); }");
+//    ui->topTable->setStyleSheet("QTableView { selection-background-color: palette(Highlight); }");
 
     ui->bottomTable->setColumnWidth(0, 40);
     ui->bottomTable->setColumnWidth(2, 100);
@@ -53,7 +53,7 @@ MainWindow::MainWindow(const Config& config, QWidget *parent) :
     ui->bottomTable->setColumnWidth(4, 180);
     ui->bottomTable->setColumnWidth(6, 45);
     ui->bottomTable->setColumnHidden(6, true);
-    ui->bottomTable->setStyleSheet("QTableView { selection-background-color: palette(Highlight); }");
+//    ui->bottomTable->setStyleSheet("QTableView { selection-background-color: palette(Highlight); }");
 
     QHeaderView *rverticalHeader = ui->bottomTable->verticalHeader();
     rverticalHeader->sectionResizeMode(QHeaderView::Fixed);

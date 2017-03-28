@@ -8,4 +8,9 @@ qReplay is an offline replay browser for Wargame Red Dragon. It will show what d
 
 Requirements
 -----
- -  [Visual C++ Redistributable Packages for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+ -  Visual C++ Redistributable Packages for Visual Studio 2015 (included in the zip file)
+
+Downloads
+-----
+
+https://github.com/ascii78/qReplay/releases
